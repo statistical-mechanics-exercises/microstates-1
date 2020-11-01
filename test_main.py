@@ -11,5 +11,5 @@ class UnitTests(unittest.TestCase) :
     def test_spinDown(self) :
         for spin in alldown : self.assertEquals( spin, -1, "the all spin down microstate is incorrect" )
         
-   def test_spinUp(self) :
-       for spin in allup : self.assertEquals( spin, 1, "The all spin up microstate is incorrect" )
+    def test_spinUp(self) :
+        for spin in allup : self.assertEquals( spin, 1, "The all spin up microstate is incorrect" )
